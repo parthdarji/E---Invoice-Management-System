@@ -1,0 +1,375 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2015, 9:27:12 PM
+    Author     : Indra
+*/
+
+.login-box,
+.register-box {
+    width: 360px;
+    margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+    .login-box,
+    .register-box {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+.login-logo a,
+.register-logo a {
+    color: #444;
+ //my comment   margin-top;
+    display: block;
+    text-align: center;
+    font-size:30px;
+}
+
+.skin-green .main-header .logo{
+    background-color: #C2DFFF;
+}
+
+.skin-green .main-header .logo:hover{
+    background-color: #C2DFFF;
+}
+
+.skin-purple .main-header .logo{
+    background-color: #C2DFFF;
+}
+
+.skin-purple .main-header .logo:hover{
+    background-color: #C2DFFF;
+}
+
+.skin-blue .main-header .logo{
+    background-color: #C2DFFF;
+}
+
+.skin-blue .main-header .logo:hover{
+    background-color: #C2DFFF;
+}
+
+.skin-red .main-header .logo{
+    background-color: #C2DFFF;
+}
+
+.skin-red .main-header .logo:hover{
+    background-color: #C2DFFF;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{
+    margin-top: 3px;
+}
+
+.skin-green .main-header .navbar{
+    background-color: #C2DFFF;
+}
+
+.skin-blue .main-header .navbar{
+    background-color: #C2DFFF;
+}
+
+.skin-blue .main-header li.user-header{
+    background-color: #C2DFFF;
+}
+
+.skin-purple .main-header .navbar{
+    background-color: #C2DFFF;
+}
+
+.skin-purple .main-header li.user-header{
+    background-color: #C2DFFF;
+}
+
+.skin-red .main-header .navbar{
+    background-color: #C2DFFF;
+}
+
+.skin-red .main-header li.user-header{
+    background-color: #C2DFFF;
+}
+
+.skin-green .main-header .navbar .sidebar-toggle:hover{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+.skin-green .main-header li.user-header{
+    background-color: #C2DFFF;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+.skin-purple .main-header .navbar .sidebar-toggle:hover{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+.skin-red .main-header .navbar .sidebar-toggle:hover{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+#loading{
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 220px;
+    width: 104px;
+    z-index: 1000;
+}
+
+.bg-yellow{
+    background-color: #f3cc12 !important;
+}
+/*==Profile page==*/
+.personal_info{
+    font-size: 17px;
+}
+
+.pagination{
+    margin:0px;
+}
+
+.mailbox-controls{
+    padding:10px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{
+    color:#000;
+}
+
+.skin-red .main-header .navbar .nav > li > a{
+    color:#000;
+}
+
+.skin-purple .main-header .navbar .nav > li > a{
+    color:#000;
+}
+
+.skin-blue .main-header .navbar .nav > li > a{
+    color:#000;
+}
+
+.skin-green .main-header .navbar .nav > li > a{
+    color:#000;
+}
+
+.required{
+    color:#F00;
+}
+
+.error{
+    color:#F00;
+}
+
+.box-body .table > thead > tr > th,
+.box-body .table > tbody > tr > th,
+.box-body .table > tfoot > tr > th,
+.box-body .table > thead > tr > td,
+.box-body .table > tbody > tr > td,
+.box-body .table > tfoot > tr > td{
+    border: 1px solid #222;
+    font-size: 16px;
+}
+
+.box-body .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th{
+    border-top:1px solid black;
+    font-size: 16px;
+}
+/*== Detail Page ==*/
+.detail-left {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+}
+.detail-middle .fa-file{
+    border-radius: 100px;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    width: 30px;
+
+}
+.detail-right {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;   
+}
+.detail-created{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+    margin: 0 auto 40px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 41.6667%;
+}
+.detail-created > .arrow {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    bottom: -72px;
+    height: 0;
+    left: 46.7%;
+    position: relative;
+    width: 0;
+}
+.detail-left > .arrow {
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid white;
+    border-top: 12px solid transparent;
+    height: 0;
+    left: 104%;
+    position: relative;
+    top: 10px;
+    width: 0;
+}
+.detail-right > .arrow {
+    border-bottom: 13px solid transparent;
+    border-right: 13px solid white;
+    border-top: 13px solid transparent;
+    height: 0;
+    position: relative;
+    right: 7%;
+    top: 7px;
+    width: 0;
+}
+#cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+}
+#cd-timeline::before {
+    background: #ddd none repeat scroll 0 0;
+    content: "";
+    height: 100%;    
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+.popover{
+    display: block;
+    min-height: 150px;
+    min-width: 260px;
+}
+
+.login-logo{
+    margin:0px;
+}
+
+/* Verticle Marquee */
+.scrollbox {
+    height: 230px;
+    width: 340px;
+    padding:10px;
+    margin: 15px auto;
+    overflow: hidden;
+    background: #EEE;
+    position: relative;
+    box-sizing: border-box;
+    color:#000;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -30em }
+}
+
+@keyframes blink {
+    to {     
+        visibility: hidden;
+    }
+}
+
+.notice {
+    position: relative;
+    margin: 1em;
+    background: #F9F9F9;
+    padding: 1em 1em 1em 2em;
+    border-left: 4px solid #DDD;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+}
+
+.notice:before {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: -17px;
+    background-color: #DDD;
+    color: #FFF;
+    width: 45px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Georgia;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.notice-info {
+    border-color: #0074D9;
+}
+
+.notice-info:before {
+    content: "i";
+    background-color: #0074D9;
+}
+
+.notice-success {
+    border-color: #2ECC40;
+}
+
+.notice-success:before {
+    content: "√";
+    background-color: #2ECC40;
+}
+
+.notice-warning {
+    border-color: #FFDC00;
+}
+
+.notice-warning:before {
+    content: "!";
+    background-color: #FFDC00;
+}
+
+.notice-error {
+    border-color: #FF4136;
+}
+
+.notice-error:before {
+    content: "New";
+    background-color: #FF4136;
+    visibility: visible;
+    animation: blink 1s steps(2, start) infinite;
+}
